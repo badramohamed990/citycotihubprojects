@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Learning Project</title>
+    <link rel="stylesheet" href="da.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML Learning Project</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About This Project</h2>
+        <p>This project helps students learn HTML and CSS basics by building a functional webpage.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Project List</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>Showcase your projects and skills.</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Personal Blog</td>
+                <td>A simple blogging platform.</td>
+                <td>In Progress</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p><strong>Challenge:</strong> Recreate this grid layout of testimonials using HTML and CSS.</p>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <img src="logo.png" alt="logo">
+                <p><strong>Reviewer One</strong></p>
+                <p>"This project taught me a lot about HTML and CSS. I feel much more confident now!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="logo.png" alt="logo">
+                <p><strong>Reviewer Two</strong></p>
+                <p>"A challenging but rewarding experience. Highly recommended for beginners."</p>
+            </div>
+            <div class="testimonial">
+                <img src="logo.png" alt="logo">
+                <p><strong>Reviewer Three</strong></p>
+                <p>"I was able to create a functional webpage by the end of this project!"</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>
